@@ -1,6 +1,6 @@
 <?php 
 function calculateArea($width, $height){
-    $area = $width/$height;
+    $area = $width*$height;
     return $area;
 }
 $totalArea = calculateArea(40,10);
